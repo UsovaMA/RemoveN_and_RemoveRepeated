@@ -1,8 +1,8 @@
-#ifndef _REMOVE_REPEATED_
-#define _REMOVE_REPEATED_
+#ifndef _REMOVE_REPEATED_H_
+#define _REMOVE_REPEATED_H_
 
 #include "List.h"
 
 void remove_repeated(List** list);
 
-#endif
+#endif  // _REMOVE_REPEATED_H_
