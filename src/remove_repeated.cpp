@@ -1,5 +1,5 @@
-#include "remove_repeated.h"
 #include <stdexcept>
+#include "remove_repeated.h"
 
 void remove_repeated(List** list) {
   if ((*list) == 0) {

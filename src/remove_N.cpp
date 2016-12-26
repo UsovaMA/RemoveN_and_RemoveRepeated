@@ -3,7 +3,7 @@
 
 void remove_N(List** list, int N) {
   if ((*list) == 0) {
-    throw std::logic_error("List is empty\n");  // исключение, вызываемое при пустом списке
+    throw std::logic_error("List is empty\n");
   } else {
     int size = 1;  // число элементов списка
     List *p = *list;
@@ -25,6 +25,6 @@ void remove_N(List** list, int N) {
       }
     } else {
       throw std::logic_error("This element doesn't exist\n");;
-    }  // исключение, если удаляемого элемента нет
+    }
   }
 }
