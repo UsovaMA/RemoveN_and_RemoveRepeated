@@ -1,8 +1,9 @@
 #include "remove_repeated.h"
+#include <stdexcept>
 
 void remove_repeated(List** list) {
   if ((*list) == 0) {
-    throw 1;  // исключение, если лист пуст
+    throw std::logic_error("List is empty\n");  
   } else {
     List* p = *list;
     while (p->next != 0) {
